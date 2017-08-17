@@ -1,0 +1,40 @@
+; $id$
+name = Kibmak
+description = This theme created by Kibmak
+core = 7.x
+
+; REGIONS
+;---------------------------------
+regions[header] = Шапка
+regions[menutop] = Главное меню
+regions[content] = Центральная часть
+regions[sidebar_first] = Левая колонка
+regions[footer_first] = Подвал первый
+regions[copyrights] = Копирайты
+regions[pop_form] = Попап форма
+regions[pop_form_product] = Попап форма все изображения в карточке
+regions[slider] = Слайдер
+
+
+
+
+
+
+
+; STYLESHEETS
+;---------------------------------
+stylesheets[all][] = style.css
+stylesheets[][] = owl-carousel/owl.carousel.css
+stylesheets[][] = owl-carousel/owl.theme.css
+stylesheets[][] = owl.transitions.css
+stylesheets[][] = slick/slick.css
+stylesheets[][] = slick/slick-theme.css
+scripts[] = js/jquery-1.12.4.min.js
+scripts[] = owl-carousel/owl.carousel.min.js
+scripts[] = js/kibmak.js
+scripts[] = js/placeholder.js
+scripts[] = js/jquery.carouFredSel-6.0.4-packed.js
+scripts[] = js/slideshowthumb.js
+scripts[] = js/jquery.scrollto.js
+scripts[] = js/jquery.localscroll.js
+scripts[] = slick/slick.min.js
