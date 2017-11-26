@@ -28,5 +28,20 @@ function kibmak_preprocess_node(&$variables) {
     }
   }
 }
-
+function kibmak_css_alter(&$css) {
+    foreach ($css as $key => $value) {
+        if ($value['group'] != CSS_THEME) {
+            $exclude[$key] = FALSE;
+        }
+    }
+    $css = array_diff_key($css, $exclude);
+}
+function kibmak_js_alter(&$js) {
+    foreach ($js as $key => $value) {
+        if ($value['group'] != JS_THEME) {
+            $exclude[$key] = FALSE;
+        }
+    }
+    $js = array_diff_key($js, $exclude);
+}
   
