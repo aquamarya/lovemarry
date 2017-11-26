@@ -23,7 +23,7 @@ regions[slider] = Слайдер
 
 ; STYLESHEETS
 ;---------------------------------
-stylesheets[all][] = style.css
+stylesheets[all][] = css/style.css
 stylesheets[][] = owl-carousel/owl.carousel.css
 stylesheets[][] = owl-carousel/owl.theme.css
 stylesheets[][] = owl.transitions.css

@@ -1,0 +1,18 @@
+#toolbar {
+    background: $c-black;
+}
+.toolbar {
+    &-menu {
+        max-width: $max-container-width;
+        padding: $container-padding;
+        margin: 0 auto;
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}
